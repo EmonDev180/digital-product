@@ -54,3 +54,79 @@
 .bg-primary{
     background-color: red;
 }
+.sarvice-container{
+
+    height: 100vh;
+    background-image:url(./pic/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.box{
+    background-color: white;
+    width:150px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;.
+}
+.sarvice-describtion{
+
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap:3px;
+    margin-top: 5px;
+}
+.author-img{
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right:2px solid red ;
+    padding: 20px;
+
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.appoinment-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+    color: white;
+}
+.title{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
